@@ -55,7 +55,7 @@
 }
 
 .scrollerWrapPolyfill-2MQSeP {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     position: relative;
 
 }
@@ -181,7 +181,7 @@
     padding: 20px 0;
     user-select: text;
     word-wrap: break-word;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -199,7 +199,7 @@ body {
     -ms-user-select: none;
     -webkit-user-select: none;
     background: transparent;
-    font-family: Open Sans,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans',Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1;
     margin: 0;
     overflow: hidden;
@@ -373,7 +373,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: Open Sans,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans',Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 500;
     height: 48px;
     padding: 0 12px 0 16px;
