@@ -189,9 +189,7 @@
     background-color: #293C5A;
 }
 
-.theme-dark .chat>.content {
-   background-color: #293C5A;
-}  
+  
  
 
 body {
@@ -409,4 +407,19 @@ body {
     color: rgba(255,255,255,0.7);
 }
 
+.theme-dark .channel-members {
+    background-color: rgba(0,0,0,0);
+    border: 1px rgba(255, 255, 255, 0.20);
+}
+.theme-dark .chat>.content {
+    background-color: #293C5A;
+    background-image: url('https://cdn.discordapp.com/attachments/406513518142029832/406513570579218434/galaxy_noblur.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+ }
+
+ .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
