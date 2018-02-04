@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.app.theme-light {
+	visibility: hidden;
+	white-space: pre;
+}
+.app.theme-light:before {
+	content: 'Woops! White Theme isnt supported.\A\APress [CTRL] + [,] to access your settings.';
+	visibility: visible !important;
+
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 26pt;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
 .guilds-wrapper {
     background-color: #151a27;
     border-style: solid;
