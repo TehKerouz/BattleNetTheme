@@ -409,7 +409,6 @@ body {
 
 .theme-dark .channel-members {
     background-color: rgba(0,0,0,0);
-    border: 1px rgba(255, 255, 255, 0.20);
 }
 .theme-dark .chat>.content {
     background-color: #293C5A;
@@ -422,4 +421,8 @@ body {
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0);
 }
