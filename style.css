@@ -215,7 +215,7 @@ body {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.10);
 }
 
-.theme-dark .friends-table, .theme-dark .messages-wrapper {
+.theme-dark .messages-wrapper {
     background-color: #293C5A;
     background-image: url('https://cdn.discordapp.com/attachments/406513518142029832/406513570579218434/galaxy_noblur.png');
     background-repeat: no-repeat;
@@ -239,15 +239,7 @@ body {
     color: #00aeff;
     
 }
-.theme-dark .headerBar-cxbhPD {
-    background-color: #293C5A;
-    background-image: url('https://cdn.discordapp.com/attachments/406513518142029832/406513570579218434/galaxy_noblur.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;    
-    -webkit-box-shadow: none;
-    box-shadow:none;
-}
+
 #friends .friends-table {
     margin-top: 0px;
 }
@@ -385,6 +377,9 @@ body {
 
 }
 .theme-dark .inner-3if5cm {
+     background-color: none; 
+}
+.theme-dark .inner-3if5cm {
     margin-top: 3px;
     margin-bottom: 3px;
     font-size: 15px;
@@ -396,14 +391,12 @@ body {
     box-sizing: border-box;
     border-radius: 2px
 }
-
-.theme-dark .inner-3if5cm :focus {
+/*.inner-3if5cm:focus{
     border-color: #1e5f99;
-    
-}
-
-.theme-dark .inner-3if5cm :hover {
-    border-color: rgba(255,255,255,0.5);
+}*/
+.inner-3if5cm:hover {
+    /*border-color: rgba(255,255,255,0.5);*/
+    border-color: #1e5f99;
     color: rgba(255,255,255,0.7);
 }
 
@@ -425,4 +418,51 @@ body {
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,0.2);
     border-color: rgba(255,255,255,0);
+}
+
+.theme-dark .friends-table{
+    background: #1D222C;
+}
+.theme-dark .headerBar-cxbhPD {
+    background: #1D222C;  
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: rgba(255,255,255,0.04);
+    border-color: rgba(255,255,255,0.2);
+    border-radius: 0px; 
+}
+.directionRow-yNbSvJ>.div>.butto {
+    -ms-flex-direction: row;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+.guilds-wrapper .guilds-error {
+    -webkit-box-sizing: border-box;
+    background: #413338;
+    border: 2px solid #f04747;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: #fff!important;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 46px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #383C47;
+}
+.scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.15);
+    border-color: transparent;
+}
+.scrollerThemed-19vinI.themeGhost-10fio9.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0);
 }
