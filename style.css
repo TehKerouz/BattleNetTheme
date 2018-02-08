@@ -464,7 +464,7 @@ body {
     background-color: rgba(0,0,0,0);
 }
 .headerPlaying-2eYqm9 {
-    background-color: #00214A; 
+    background-color: #181E2E; 
 }
 .userPopout-4pfA0d {
     -webkit-box-shadow: none !important;
@@ -513,4 +513,80 @@ body {
 }
 .headerTop-1QGMLs {
     background: #283244;
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    background: rgba(0,0,0,0.5);
+    border-color: rgba(32, 34, 37, .3);
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed:hover {
+    background: rgba(0,0,0,0.3);
+    border-color: rgba(32, 34, 37, .3);
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: rgba(0,0,0,0.5);
+    color: #8a8e94;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: rgba(0,0,0,0.3);
+    color: #8a8e94;
+}
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: rgba(0,0,0,0.5);
+    border-color: rgba(32, 34, 37, .3);
+}
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked:hover {
+    background: rgba(0,0,0,0.3);
+    border-color: rgba(32, 34, 37, .3);
+}
+.headerSpotify-1fSJPO {
+    background: #181E2E;
+}
+
+.backdrop-2ohBEd {
+    bottom: 0;
+    contain: strict;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    opacity: 0 !important;
+    background-color: rgb(0, 0, 0);
+    transform: translateZ(0px);
+}
+.inner-1_1f7b {
+    border: 1px solid #393E4C;
+    outline: #000000 solid 1px;
+}
+.root-2sNHUF {
+    border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+}
+.topSectionNormal-2LlRG1 {
+    background-color: #283244;
+}
+.headerFill-TTyrtz {
+    background-color: #181E2E;
+}   
+.theme-dark .body-3_tdh6 {
+    background-color: #181E2E;
+}   
+.userInfoSectionHeader-pmdPGs {
+    color: #FFF;
+    text-transform: uppercase;
+}
+.theme-dark .connectedAccount-3mKaTA, .theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
+    border-color: rgba(0,0,0,0);
+}
+.connectedAccountName-3EFj01 {
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    color: #FFF;
+    margin-left: 10px;
+    user-select: text;
 }
